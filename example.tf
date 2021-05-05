@@ -1,13 +1,13 @@
 module "repository" {
   source = "./module"
 
-  name = "mysuperapp"
+  name        = "mysuperapp"
   description = "My super app"
-  gitignore = "Terraform"
-  wiki = true
+  gitignore   = "Terraform"
+  wiki        = true
 
   collaborator = "dylan-picquendar"
-  role = "member"
+  role         = "member"
 
   team = "terraform"
 }
