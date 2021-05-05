@@ -11,7 +11,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   terraform:
-    # The type of runner that the job will run
+    # The type of runner that the job will run on
     name: 'Terraform'
     runs-on: ubuntu-latest
 
