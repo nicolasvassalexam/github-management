@@ -1,6 +1,14 @@
-module "myteam" {
-  source = "./module/"
+module "repository" {
+  source = "./module"
 
-  repository = "my-super-repo"
-  team = "member"
+  name = "mysuperapp"
+  description = "My super app"
+  gitignore = "Terraform"
+  wiki = true
+
+  collaborator = "dylan-picquendar"
+  role = "member"
+
+  team = "terraform"
 }
+
