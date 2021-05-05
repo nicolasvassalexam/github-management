@@ -1,4 +1,4 @@
 provider "github" {
-  token = "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"
+  token = "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"
   owner = "nicolasvassalexam"
 }
