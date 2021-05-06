@@ -1,6 +1,6 @@
 variable "git_token" {
-    type = string
+  type = string
 }
 variable "git_orga" {
-    type = string
+  type = string
 }
